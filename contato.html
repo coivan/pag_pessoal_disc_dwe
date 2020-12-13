@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Página de contato do Ivan</title>
+    <meta charset="utf-8"/>
+    <style>
+        form{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightgrey;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+        }
+        #fone-contato{
+            width: 165px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nome-contato">Nome</label>
+        <input type="text" id="nome-contato" name="nome-contato" required>
+        <br><br>
+        <label for="fone-contato">Fone</label>
+        <input type="tel" id="fone-contato" name="fone-contato" placeholder="19-99191-9191" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required><br>
+        <small><small>Formato: 19-99191-9191</small></small><br><br>
+        <label for="email-contato">E-mail</label>
+        <input type="email" id="email-contato" name="email-contato" required><br><br>
+        <p>Motivo do contato:</p>
+        <input type="checkbox" id="motivo-contato1" name="motivo-contato">
+        <label for="motivo-contato1">Dar um emprego par ao Ivan</label><br><br>
+        <input type="checkbox" id="motivo-contato2" name="motivo-contato" checked>
+        <label for="motivo-contato2">Dar um estágio para o Ivan</label><br><br>
+        <input type="checkbox" id="motivo-contato3" name="motivo-contato">
+        <label for="motivo-contato3">Dar boa sorte para o Ivan</label><br><br>
+        <textarea id="motivo-contato4" name="motivo-contato" rows="5" cols="26" placeholder="Se preferir, digite aqui o motivo so seu contato!"></textarea><br><br>
+        <p>Comentários gerais:</p>
+        <textarea id="comentarios" name="comentarios" rows="5" cols="26"></textarea><br><br>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>

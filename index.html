@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Página Pessoal do Ivan</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+        #menu nav ul li {
+            display: inline;
+        }
+        #menu nav ul li a {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: brown;
+            margin: 10px 10px 10px 10px;
+            text-decoration: none;
+        }
+        #menu nav ul li a:hover {
+            background-color:gray;
+        }
+        .classe-imagens {
+            font-family: 'Times New Roman', Times, serif;      
+            display: inline-block;
+            text-align: center;
+        }
+        .classe-imagens img{
+            width: 450px;
+            align-items: center;
+        }
+        .classe-imagens h3 {
+            font-size: 18px;
+        }
+        .classe-imagens p {
+            font-size: 16px;
+        }
+        .classe-secoes{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+        }
+        .classe-secoes h3 {
+            font-size: 18px;
+        }
+        .classe-secoes p {
+            font-size: 16px;
+            margin: 0px 0px 0px 50px;
+        }
+        .classe-secoes ul li {
+            font-size: 16px;
+            margin: 0px 0px 0px 25px;
+        }
+        .classe-secoes ol li {
+            font-size: 16px;
+            margin: 0px 0px 0px 25px;
+        }
+        .classe-secoes ol li a {
+            text-decoration: none;
+            color: #0e630e;
+            font-weight: 600;
+        }
+        #id-rodape {
+            text-align: center;
+            color: blue;
+        }
+        #id-contato nav ul li {
+            display: inline-block;
+        }
+        #id-contato nav ul li a {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            text-decoration: none;
+            color: orange;
+            margin: 10px 0px 10px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Aqui começa o menu-->
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="#id-dados-pessoais">Dados pessoais</a></li>               
+                <li><a href="#id-dados-profissionais">Dados profissionais</a></li>             
+                <li><a href="#id-escolaridade">Escolaridade</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Aqui termina o menu-->
+
+    <br>
+
+    <!--Aqui começa a foto do perfil-->
+    <div class="classe-imagens">
+        <h3>Página Pessoal</h3>
+        <img src="img/foto_perfil.jpg" alt="Foto de perfil de Ivan"/>
+        <p>Ivan Cardoso</p>
+    </div>
+    <!--Aqui termina a foto do perfil-->
+
+    <br>
+
+    <!--Aqui começam as seções-->
+
+    <div class="classe-secoes">
+        <h3 id="id-dados-pessoais">Dados Pessoais</h3>
+        <p>
+            Ivan nam vestibulum nunc ut nisi suscipit bibendum. Nullam leo purus, aliquet a nisl vitae, malesuada posuere lectus. Quisque venenatis urna ut iaculis feugiat. Donec ipsum nunc, maximus sed faucibus sit amet, eleifend id est. 
+        </p>
+    </div>
+    <hr>
+    <div class="classe-secoes">
+        <h3 id="id-dados-profissionais">Dados Profissionais</h3>
+        <ul>
+            <li>Cargo NaPindaiba - 1990 à 2020</li>
+            <li>Aprediz de Seu Madruga - 1997 à 1999</li>
+            <li>Programador amador - 2019 à NSQ</li>               
+        </ul>
+    </div>
+    <hr>
+    <div class="classe-secoes">
+        <h3 id="id-escolaridade">Escolaridade - Formação acadêmica</h3>
+        <ol>
+            <li>Formação Básica na E.E. Voute Ferrar Cara - 1997 à 2014</li>
+            <li>Graduação em Ciências do Sevirar - 2014 à 2018</li>
+            <li>Curso Tecnólogo em TADS no <a href="http://cmp.ifsp.edu.br">IFSP Campinas</a> - 2019 à NSQ</li>
+        </ol>
+    </div>
+    <hr>
+    <div class="classe-secoes">    
+        <h3 >Entre em Contato</h3>
+        <div  id="id-contato">
+            <nav>
+                <ul>
+                    <li><a href="http://api.whatsapp.com/send?1=pt_BR&phone=551990000000">WhatsApp</a></li>
+                    <li><a href="https://www.google.com/intl/pt/gmail/about/">ivan.c@dudemail.com</a></li>
+                    <li><a href="#">Sinal de Fumaça</a></li>
+                    <li><a href="./contato.html">Formulário de Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Aqui teminam as seções-->
+
+    <br>
+
+    <!--Aqui começa o rodapé-->
+    <footer id="id-rodape">
+        <p>Página Pessoal do Ivan | Copyright (2020) </p>
+    </footer>
+    <!--Aqui termina o rodapé-->
+</body>
+
+</html>
